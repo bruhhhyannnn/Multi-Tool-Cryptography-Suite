@@ -12,13 +12,28 @@
 		<h1>EncodeHub</h1>
 		<nav>
 			<a href="index.php">Home</a>
+			<!-- <h2>Encryption/Decryption</h2> -->
 			<a href="caesar.php">Caesar Cipher</a>
-			<a href="base64.php">Base64</a>
-			<a href="sha256.php">SHA-256</a>
-			<a href="visualize.php">Visualize</a>
 			<a href="vigenere.php">Vigenère Cipher</a>
-			<a href="hex.php">Hexadecimal</a>
 			<a href="aes.php">AES</a>
+			<a href="rsa.php">RSA</a>
+
+			<!-- <h2>Encoding/Decoding</h2> -->
+			<a href="base64.php">Base64</a>
+			<a href="base32.php">Base32</a>
+			<a href="hex.php">Hexadecimal</a>
+
+			<!-- <h2>Hashing</h2> -->
+			<a href="sha256.php">SHA-256</a>
+			<a href="md5.php">MD5</a>
+			<a href="sha1.php">SHA-1</a>
+
+			<!-- <h2>Numerical Conversions</h2> -->
+			<a href="binary.php">Binary/Decimal/Hexadecimal</a>
+
+			<!-- <h2>Visualization</h2> -->
+			<a href="visualize.php">Visualize</a>
+
 			<!-- more links -->
 		</nav>
 	</header>

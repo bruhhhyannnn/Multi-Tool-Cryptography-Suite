@@ -11,7 +11,7 @@
 	<header>
 		<h1>EncodeHub</h1>
 		<nav>
-			<a href="index.php">Home</a>
+			<a href="../index.php">Home</a>
 			<!-- <h2>Encryption/Decryption</h2> -->
 			<a href="caesar.php">Caesar Cipher</a>
 			<a href="vigenere.php">Vigenère Cipher</a>

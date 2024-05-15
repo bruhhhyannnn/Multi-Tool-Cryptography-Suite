@@ -9,15 +9,25 @@
 </head>
 
 <body>
-	<?php include 'layout/header.php'; ?>
+	
+	<div id="header"></div>
 	<main>
 		<h2>Welcome to EncodeHub! | Multi-Task Conversion</h2>
 		<p>Your go-to site for encoding, encryption, and learning about various
 			algorithms.</p>
 		<p>Select a tool from the navigation menu to get started.</p>
 	</main>
-
-	<?php include 'layout/footer.php'; ?>
+	
+	<script>
+        fetch('layout/header.php')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error fetching the header:', error);
+            });
+	</script>
 </body>
 
 </html>

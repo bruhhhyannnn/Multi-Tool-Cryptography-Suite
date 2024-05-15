@@ -18,8 +18,8 @@
 			<textarea id="input-text" name="input-text"></textarea>
 			<label for="key">Key:</label>
 			<input type="text" id="key" name="key">
-			<button type="button" id="encode-btn">Encode</button>
-			<button type="button" id="decode-btn">Decode</button>
+			<button type="button" id="encode-btn">Encrypt</button>
+			<button type="button" id="decode-btn">Decrypt</button>
 		</form>
 		<div id="result">
 			<h3>Result:</h3>

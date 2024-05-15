@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>AES - EncodeHub</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles_main.css">
 </head>
 
 <body>
-	<?php include 'layout/header.php'; ?>
+	<?php include '../layout/header.php'; ?>
 	<main>
 		<h2>AES</h2>
 		<p>Advanced Encryption Standard (AES) is a symmetric encryption algorithm widely used across the globe.</p>

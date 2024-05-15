@@ -11,10 +11,10 @@
 	<header>
 		<h1>EncodeHub</h1>
 		<nav>
-			<a href="../index.php">Home</a>
+			<a href="/hacking_conversions_website/index.html">Home</a>
 			<!-- <h2>Encryption/Decryption</h2> -->
-			<a href="caesar.php">Caesar Cipher</a>
-			<a href="vigenere.php">Vigenère Cipher</a>
+			<a href="/hacking_conversions_website/public/caesar.php">Caesar Cipher</a>
+			<a href="/hacking_conversions_website/public/vigenere.php">Vigenère Cipher</a>
 			<a href="aes.php">AES</a>
 			<a href="rsa.php">RSA</a>
 

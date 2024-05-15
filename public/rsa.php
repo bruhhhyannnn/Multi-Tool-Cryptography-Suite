@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Hexadecimal - EncodeHub</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles_main.css">
 </head>
 
 <body>
-	<?php include 'layout/header.php'; ?>
+	<?php include '../layout/header.php'; ?>
 	<main>
 		<h2>RSA Encryption</h2>
 		<p>RSA is an asymmetric encryption algorithm widely used in secure data transmission.</p>

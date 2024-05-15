@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Hexadecimal - EncodeHub</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles_main.css">
 </head>
 
 <body>
-	<?php include 'layout/header.php'; ?>
+	<?php include '../layout/header.php'; ?>
 	<main>
 		<h2>Base32 Encoding</h2>
 		<p>Base32 is a base 32 transfer encoding using the twenty-six letters A–Z and six digits 2–7.</p>

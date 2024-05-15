@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Visualization - EncodeHub</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles_main.css">
 </head>
 
 <body>
-	<?php include 'layout/header.php'; ?>
+	<?php include '../layout/header.php'; ?>
 	<main>
 		<h2>Visualization</h2>
 		<p>Visualize the transformation of text through different encoding and encryption methods.</p>

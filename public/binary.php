@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Base64 - EncodeHub</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles_main.css">
 </head>
 
 <body>
-	<?php include 'layout/header.php'; ?>
+	<?php include '../layout/header.php'; ?>
 	<main>
 		<h2>Binary/Decimal/Hexadecimal Conversion</h2>
 		<p>Convert numbers between binary, decimal, and hexadecimal representations.</p>

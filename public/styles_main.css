@@ -29,8 +29,7 @@ main {
 	padding: 1rem;
 	background-color: white;
 	margin: 1rem;
-	border-radius: 5px;
-	text-align: center;
+	border-radius: 10px;
 }
 
 form {

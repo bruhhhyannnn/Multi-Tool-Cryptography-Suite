@@ -5,13 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>EncodeHub - Home</title>
-	<link rel="stylesheet" href="public/styles/styles.css">
+	<link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 	
 	<div id="header"></div>
-	<main>
+	<main class="main_dash">
 		<h2>Welcome to EncodeHub! | Multi-Task Conversion</h2>
 		<p>Your go-to site for encoding, encryption, and learning about various
 			algorithms.</p>
@@ -21,7 +21,7 @@
 	<div id="footer"></div>
 	
 	<script>
-        fetch('public/layout/header.php')
+        fetch('layout/header.php')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
@@ -30,7 +30,7 @@
                 console.error('Error fetching the header:', error);
             });
 
-		fetch('public/layout/footer.php')
+		fetch('layout/footer.php')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;

@@ -21,7 +21,7 @@
 		<div id="result">
 			<h3>Result:</h3>
 			<canvas id="visualization-canvas" width="400" height="400"></canvas>
-			<button id="copy-btn">Copy Result</button>
+			<?php include '../layout/copy_button.php'; ?>
 		</div>
 	</main>
 	<script src="../scripts/visualize.js"></script>

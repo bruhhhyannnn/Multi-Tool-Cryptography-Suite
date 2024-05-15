@@ -22,7 +22,7 @@
 		<div id="result">
 			<h3>Result:</h3>
 			<p id="result-text"></p>
-			<button id="copy-btn">Copy Result</button>
+			<?php include '../layout/copy_button.php'; ?>
 		</div>
 	</main>
 	<script src="../scripts/base64.js"></script>

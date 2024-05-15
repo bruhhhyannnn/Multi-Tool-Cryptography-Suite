@@ -22,7 +22,7 @@ nav {
 nav a {
 	color: white;
 	text-decoration: none;
-	margin-right: 1rem;
+	margin-right: 1.5rem;
 }
 
 main {
@@ -67,4 +67,57 @@ button:hover {
 
 #result h3 {
 	margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0.5rem 0;
+}
+
+#copyright {
+	font-size: 12px;
+}
+
+/* Basic styles for the copy button */
+#copy-btn {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#copy-btn:hover {
+    background-color: #555;
+}
+
+/* Animation styles */
+@keyframes copy-animation {
+    0% {
+        transform: scale(1);
+        background-color: #333;
+    }
+    50% {
+        transform: scale(1.1);
+        background-color: #4caf50; /* Change to a green color to indicate success */
+    }
+    100% {
+        transform: scale(1);
+        background-color: #333;
+    }
+}
+
+.copied {
+    animation: copy-animation 1s ease-in-out;
 }

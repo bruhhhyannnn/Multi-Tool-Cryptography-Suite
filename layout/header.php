@@ -7,10 +7,8 @@
 		<a href="/hacking_conversions_website/public/caesar.php">Caesar Cipher</a>
 		<a href="/hacking_conversions_website/public/vigenere.php">Vigenère Cipher</a>
 		<a href="/hacking_conversions_website/public/aes.php">AES</a>
-		<a href="/hacking_conversions_website/public/rsa.php">RSA</a>
 
 		<!-- <h2>Encoding/Decoding</h2> -->
-		<a href="/hacking_conversions_website/public/base32.php">Base32</a>
 		<a href="/hacking_conversions_website/public/base64.php">Base64</a>
 		<a href="/hacking_conversions_website/public/hex.php">Hexadecimal</a>
 

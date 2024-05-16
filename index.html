@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>EncodeHub - Home</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>EncodeHub - Home</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
 
-<body>
-	
-	<div id="header"></div>	
-	<main>
-		<h2>Welcome to EncodeHub!</h2>
-		<h3>Your Multi-Task Conversion and Encryption Suite</h3>
-		<br>
-		<p>EncodeHub is your go-to site for encoding, encryption, and learning about various algorithms.</p>
-		<p>Select a tool from the navigation menu to get started.</p>
-	</main>
+	<body>
 
-	<div id="footer"></div>
-	
-	<script>
-        fetch('layout/header.php')
+		<div id="header"></div>
+		<main>
+			<h2>Welcome to EncodeHub!</h2>
+			<h3>Your Multi-Task Conversion and Encryption Suite</h3>
+			<br>
+			<p>EncodeHub is your go-to site for encoding, encryption, and learning about
+				various algorithms.</p>
+			<p>Select a tool from the navigation menu to get started.</p>
+		</main>
+
+		<div id="footer"></div>
+
+		<script>
+        fetch('layout/header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
@@ -31,7 +32,7 @@
                 console.error('Error fetching the header:', error);
             });
 
-		fetch('layout/footer.php')
+		fetch('layout/footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
@@ -41,6 +42,6 @@
             });
 			
 	</script>
-</body>
+	</body>
 
 </html>

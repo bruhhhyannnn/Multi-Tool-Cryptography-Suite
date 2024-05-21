@@ -20,10 +20,12 @@
 			<input type="number" id="shift" name="shift">
 			<button type="button" id="encode-btn">Encrypt</button>
 			<button type="button" id="decode-btn">Decrypt</button>
+			<button type="button" id="brute-force-btn">Brute Force</button> <!-- Added Brute Force button -->
 		</form>
 		<div id="result">
 			<h3>Result:</h3>
 			<p id="result-text"></p>
+			<div id="brute-force-results"></div> <!-- Added a container for brute force results -->
 			<?php include '../layout/copy_button.php'; ?>
 		</div>
 	</main>

@@ -16,9 +16,9 @@ document.getElementById('copy-btn').addEventListener('click', function() {
 });
 
 function caesarCipher(text, shift) {
-  return text.replace(/[a-zA-Z]/g, function(c) {
-    const code = c.charCodeAt(0);
-    const shiftBase = code >= 97 ? 97 : 65;
-    return String.fromCharCode(((code - shiftBase + shift) % 26 + 26) % 26 + shiftBase);
+return text.replace(/[a-zA-Z]/g, function(c) {  // callback function 
+    const code = c.charCodeAt(0);               // returns Unicode value
+    const shiftBase = code >= 97 ? 97 : 65;     // Ternary operator
+    return String.fromCharCode(((code - shiftBase + shift) % 26 + 26) % 26 + shiftBase); 
   });
 }
